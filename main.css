@@ -1,0 +1,66 @@
+.containerPadre{
+
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+
+
+
+header {
+
+    grid-area: header;
+}
+
+header img{
+    width: 100%
+}
+
+header ul {  
+    display: flex;
+    justify-content:flex-end
+}
+
+header ul li{  
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+header ul li a{  
+    text-decoration: none;
+}
+
+
+
+
+.fotoYtitulo .contImagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid rgb(18, 17, 17);
+}
+
+.fotoYtitulo .contImagen img {
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    border-radius: 100%;
+
+}
+
+.acercaDe{
+
+    display: flex;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
