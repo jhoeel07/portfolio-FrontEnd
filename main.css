@@ -19,9 +19,9 @@ header img{
     width: 100%
 }
 
-header ul {  
+.containerLogoYredes {  
     display: flex;
-    justify-content:flex-end
+    justify-content: space-between;
 }
 
 header ul li{  
@@ -34,7 +34,16 @@ header ul li a{
     text-decoration: none;
 }
 
+header .logo{  
+    width: 10rem;
+    height: 5rem;
+}
 
+header .logo img{  
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 .fotoYtitulo .contImagen {
